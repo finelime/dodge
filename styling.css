@@ -1,0 +1,47 @@
+@font-face {
+    font-family: bigfont;
+    src: url(styles/Gobold-Bold.ttf);
+}
+
+@font-face {
+    font-family: profont;
+    src: url(styles/Pro-Font.ttf);
+}
+
+body {
+	background-color: #0387AF;
+}
+
+.game {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.leaderboard {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	font-family: profont;
+	color: #fff;
+	text-align: right;
+	text-shadow: 1px 1px 5px #000;
+}
+
+.leaderboard .title {
+	font-size: 27px;
+}
+
+.leaderboard .players {
+	font-size: 18px;
+}
+
+.leaderboard .me {
+	color: #3ADF00;
+}
+
+.leaderboard .time {
+	color: #D0D0D0;
+}
